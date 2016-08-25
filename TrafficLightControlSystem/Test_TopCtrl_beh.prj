@@ -1,0 +1,7 @@
+verilog work "divide.v"
+verilog work "time_trans.v"
+verilog work "led_ctrl.v"
+verilog work "control.v"
+verilog work "TopCtrl.v"
+verilog work "Test_TopCtrl.v"
+verilog work "f:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

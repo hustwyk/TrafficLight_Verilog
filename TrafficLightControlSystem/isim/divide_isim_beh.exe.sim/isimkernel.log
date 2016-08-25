@@ -1,0 +1,28 @@
+Command line:
+   divide_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1864
+
+Fri Sep 18 15:29:03 2015
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 848.364 Meg
+
+ Total Signals          : 14
+ Total Nets             : 15
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 128
+
+ Total Simulation Time: 0.703125 sec
+
+ Current Memory Usage: 848.364 Meg
+
+Fri Sep 18 15:29:26 2015
+

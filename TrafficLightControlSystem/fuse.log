@@ -1,0 +1,27 @@
+Running: f:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/Test_TopCtrl_isim_beh.exe -prj C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/Test_TopCtrl_beh.prj work.Test_TopCtrl work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/divide.v" into library work
+Analyzing Verilog file "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/time_trans.v" into library work
+Analyzing Verilog file "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/led_ctrl.v" into library work
+Analyzing Verilog file "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/control.v" into library work
+Analyzing Verilog file "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.v" into library work
+Analyzing Verilog file "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/Test_TopCtrl.v" into library work
+Analyzing Verilog file "f:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module divide
+Compiling module control
+Compiling module led_ctrl
+Compiling module time_trans
+Compiling module TopCtrl
+Compiling module Test_TopCtrl
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\Test_TopCtrl_isim_beh.exe.sim\libPortability.dll".
+Compiled 7 Verilog Units
+Built simulation executable C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/Test_TopCtrl_isim_beh.exe
+Fuse Memory Usage: 29716 KB
+Fuse CPU Usage: 546 ms

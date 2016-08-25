@@ -1,0 +1,5 @@
+verilog work "divide.v"
+verilog work "time_trans.v"
+verilog work "led_ctrl.v"
+verilog work "control.v"
+verilog work "TopCtrl.v"

@@ -1,0 +1,4 @@
+verilog isim_temp "divide.v"
+verilog isim_temp "control.v"
+verilog isim_temp "Test_control.v"
+verilog isim_temp "f:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

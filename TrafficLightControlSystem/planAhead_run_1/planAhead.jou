@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Sep 18 12:56:10 2015
+# Process ID: 6700
+# Log file: C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin P11 [get_ports online]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports online_led]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports rst_led]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports set]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports peak]
+endgroup
+set_property package_pin "" [get_ports [list  Cm]]
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports Cm]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports Cc]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports PQm]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports PQc]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {m_led[2]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports {m_led[1]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {m_led[0]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {c_led[2]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {c_led[1]}]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports {c_led[0]}]
+endgroup
+save_constraints

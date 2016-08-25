@@ -1,0 +1,39 @@
+
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clk = PERIOD "clk" 20 ns HIGH 50 %;
+NET "Control/Divide/second" TNM_NET = "Control/Divide/second";
+TIMESPEC TS_Control_Divide_second = PERIOD "Control/Divide/second" 20 ns HIGH 50 %;
+NET "Trans/clk_4kHz" TNM_NET = "Trans/clk_4kHz";
+TIMESPEC TS_Trans_clk_4kHz = PERIOD "Trans/clk_4kHz" 20 ns HIGH 50 %;
+
+
+NET "online" LOC = P11;
+NET "online_led" LOC = M5;
+NET "rst" LOC = K3;
+NET "set_led" LOC = M11;
+NET "set" LOC = L3;
+NET "peak" LOC = B4;
+NET "clk" LOC = B8;
+NET "Cm" LOC = G3;
+NET "Cc" LOC = F3;
+NET "PQm" LOC = E2;
+NET "PQc" LOC = N3;
+NET "m_led[2]" LOC = P7;
+NET "m_led[1]" LOC = P6;
+NET "m_led[0]" LOC = N5;
+NET "c_led[2]" LOC = N4;
+NET "c_led[1]" LOC = P4;
+NET "c_led[0]" LOC = G1;
+
+NET "sm_duan[7]" LOC = N13;
+NET "sm_duan[6]" LOC = M12;
+NET "sm_duan[5]" LOC = L13;
+NET "sm_duan[4]" LOC = P12;
+NET "sm_duan[3]" LOC = N11;
+NET "sm_duan[2]" LOC = N14;
+NET "sm_duan[1]" LOC = H12;
+NET "sm_duan[0]" LOC = L14;
+NET "sm_wei[3]" LOC = K14;
+NET "sm_wei[2]" LOC = M13;
+NET "sm_wei[1]" LOC = J12;
+NET "sm_wei[0]" LOC = F12;

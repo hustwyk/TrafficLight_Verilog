@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "TopCtrl.ngc" TopCtrl.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopCtrl.ucf -p xc3s100e-cp132-4 "TopCtrl.ngc" TopCtrl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopCtrl_map.ncd TopCtrl.ngd TopCtrl.pcf 
+par -w -intstyle ise -ol high -t 1 TopCtrl_map.ncd TopCtrl.ncd TopCtrl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopCtrl.twx TopCtrl.ncd -o TopCtrl.twr TopCtrl.pcf -ucf TopCtrl.ucf 
+bitgen -intstyle ise -f TopCtrl.ut TopCtrl.ncd 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopCtrl.ucf -p xc3s100e-cp132-4 "TopCtrl.ngc" TopCtrl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopCtrl_map.ncd TopCtrl.ngd TopCtrl.pcf 
+par -w -intstyle ise -ol high -t 1 TopCtrl_map.ncd TopCtrl.ncd TopCtrl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopCtrl.twx TopCtrl.ncd -o TopCtrl.twr TopCtrl.pcf -ucf TopCtrl.ucf 
+bitgen -intstyle ise -f TopCtrl.ut TopCtrl.ncd 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopCtrl.ucf -p xc3s100e-cp132-4 "TopCtrl.ngc" TopCtrl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopCtrl_map.ncd TopCtrl.ngd TopCtrl.pcf 
+par -w -intstyle ise -ol high -t 1 TopCtrl_map.ncd TopCtrl.ncd TopCtrl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopCtrl.twx TopCtrl.ncd -o TopCtrl.twr TopCtrl.pcf -ucf TopCtrl.ucf 
+bitgen -intstyle ise -f TopCtrl.ut TopCtrl.ncd 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopCtrl.ucf -p xc3s100e-cp132-4 "TopCtrl.ngc" TopCtrl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopCtrl_map.ncd TopCtrl.ngd TopCtrl.pcf 
+par -w -intstyle ise -ol high -t 1 TopCtrl_map.ncd TopCtrl.ncd TopCtrl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopCtrl.twx TopCtrl.ncd -o TopCtrl.twr TopCtrl.pcf -ucf TopCtrl.ucf 
+bitgen -intstyle ise -f TopCtrl.ut TopCtrl.ncd 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopCtrl.ucf -p xc3s100e-cp132-4 "TopCtrl.ngc" TopCtrl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopCtrl_map.ncd TopCtrl.ngd TopCtrl.pcf 
+par -w -intstyle ise -ol high -t 1 TopCtrl_map.ncd TopCtrl.ncd TopCtrl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopCtrl.twx TopCtrl.ncd -o TopCtrl.twr TopCtrl.pcf -ucf TopCtrl.ucf 
+bitgen -intstyle ise -f TopCtrl.ut TopCtrl.ncd 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopCtrl.ucf -p xc3s100e-cp132-4 "TopCtrl.ngc" TopCtrl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopCtrl_map.ncd TopCtrl.ngd TopCtrl.pcf 
+par -w -intstyle ise -ol high -t 1 TopCtrl_map.ncd TopCtrl.ncd TopCtrl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopCtrl.twx TopCtrl.ncd -o TopCtrl.twr TopCtrl.pcf -ucf TopCtrl.ucf 
+bitgen -intstyle ise -f TopCtrl.ut TopCtrl.ncd 
+xst -intstyle ise -ifn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.xst" -ofn "C:/Users/WYK/Desktop/DC keshe/TrafficLightControlSystem2.0/TopCtrl.syr" 

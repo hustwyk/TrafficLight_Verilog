@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="sm_duan">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="sm_wei">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="c_led">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="m_led">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="clk" Dir="IN"/>
+		<Port Id="rst_led" Dir="OUT"/>
+		<Port Id="Cc" Dir="IN"/>
+		<Port Id="Cm" Dir="IN"/>
+		<Port Id="rst" Dir="IN"/>
+		<Port Id="online" Dir="IN"/>
+		<Port Id="PQc" Dir="IN"/>
+		<Port Id="peak" Dir="IN"/>
+		<Port Id="PQm" Dir="IN"/>
+		<Port Id="set" Dir="IN"/>
+		<Port Id="online_led" Dir="OUT"/>
+	</Ifc>
+</Interface>
+
